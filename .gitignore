@@ -1,0 +1,58 @@
+# ---------------- Python ----------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ---------------- Virtual Environment ----------------
+venv/
+env/
+ENV/
+.venv/
+
+# ---------------- DeepFace / TensorFlow Cache ----------------
+.deepface/
+.keras/
+.keras_cache/
+.tf/
+tensorflow_logs/
+logs/
+
+# ---------------- Model / Large Files ----------------
+*.h5
+*.pb
+*.ckpt
+*.onnx
+
+# ---------------- OpenCV Temporary Files ----------------
+*.jpg
+*.png
+*.jpeg
+current_frame.*
+
+# ---------------- Dataset (optional) ----------------
+# Uncomment if dataset is large
+# music_dataset.csv
+
+# ---------------- IDE ----------------
+.vscode/
+.idea/
+*.code-workspace
+
+# ---------------- OS Files ----------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------- Matplotlib ----------------
+.matplotlib/
+
+# ---------------- Environment Variables ----------------
+.env
+.env.*
+
+# ---------------- Python Packaging ----------------
+build/
+dist/
+*.egg-info/

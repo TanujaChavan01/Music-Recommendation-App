@@ -1,0 +1,10 @@
+deepface==0.0.79
+opencv-python==4.8.1.78
+pandas==2.1.4
+pillow==10.2.0
+matplotlib==3.8.2
+numpy==1.26.4
+tensorflow==2.15.0
+requests
+tqdm
+gdown

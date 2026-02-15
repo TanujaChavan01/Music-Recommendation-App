@@ -1,0 +1,18 @@
+{
+    "sourceFile": ".gitignore",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1771175428126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1771175428126,
+            "name": "Commit-0",
+            "content": "# ---------------- Python ----------------\r\n__pycache__/\r\n*.py[cod]\r\n*$py.class\r\n*.pyo\r\n*.pyd\r\n\r\n# ---------------- Virtual Environment ----------------\r\nvenv/\r\nenv/\r\nENV/\r\n.venv/\r\n\r\n# ---------------- DeepFace / TensorFlow Cache ----------------\r\n.deepface/\r\n.keras/\r\n.keras_cache/\r\n.tf/\r\ntensorflow_logs/\r\nlogs/\r\n\r\n# ---------------- Model / Large Files ----------------\r\n*.h5\r\n*.pb\r\n*.ckpt\r\n*.onnx\r\n\r\n# ---------------- OpenCV Temporary Files ----------------\r\n*.jpg\r\n*.png\r\n*.jpeg\r\ncurrent_frame.*\r\n\r\n# ---------------- Dataset (optional) ----------------\r\n# Uncomment if dataset is large\r\n# music_dataset.csv\r\n\r\n# ---------------- IDE ----------------\r\n.vscode/\r\n.idea/\r\n*.code-workspace\r\n\r\n# ---------------- OS Files ----------------\r\n.DS_Store\r\nThumbs.db\r\ndesktop.ini\r\n\r\n# ---------------- Matplotlib ----------------\r\n.matplotlib/\r\n\r\n# ---------------- Environment Variables ----------------\r\n.env\r\n.env.*\r\n\r\n# ---------------- Python Packaging ----------------\r\nbuild/\r\ndist/\r\n*.egg-info/"
+        }
+    ]
+}
